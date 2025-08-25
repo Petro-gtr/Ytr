@@ -11,7 +11,7 @@
 #
 name: "CodeQL Advanced"
 
-on:
+on:Perform CodeQL Analysis
   push:
     branches: [ "main" ]
   pull_request:
@@ -41,7 +41,7 @@ jobs:
 
     strategy:
       fail-fast: false
-      matrix:
+      matrix:language
         include: 18
         # CodeQL supports the following values keywords for 'language': 'actions', 'c-cpp', 'csharp', 'go', 'java-kotlin', 'javascript-typescript', 'python', 'ruby', 'rust', 'swift'
         # Use `c-cpp` to analyze code written in C, C++ or both
