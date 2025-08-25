@@ -11,7 +11,7 @@
 #
 name: "CodeQL Advanced"
 
-on:Perform CodeQL Analysis
+on:
   push:
     branches: [ "main" ]
   pull_request:
